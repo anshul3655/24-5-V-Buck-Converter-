@@ -16,11 +16,11 @@ This repository contains the $MATLAB/Simulink$ files for a 24V to 5V DC-DC Buck 
 * Simulink
 * Simscape Electrical
 
-## 🧮 Design Summary
+# Design Summary
 
 * Duty Cycle (D):20.8
 * Inductor L: 270 H (Calculated for 30% ripple current)
-* Capacitor C:22 micro F (Calculated for 1% voltage ripple)
+* Capacitor C: 22 micro F (Calculated for 1% voltage ripple)
 
  Simulink Model & Results
 
@@ -32,7 +32,8 @@ The closed-loop system uses a PID controller to maintain a stable 5V output.
 # Key Results
 
 1.  Steady-State Output:The output voltage successfully stabilizes at 5V  with minimal ripple.
-   
+   ![Uploading image.png…]()
+
 
 2.  Load Regulation: The controller maintains 5V even when the load is changed (e.g. 5 Omega to 10 Omega ), proving its robustness.
    
